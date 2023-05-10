@@ -1,0 +1,4 @@
+{
+  "extends": "../aptus/tsconfig.json",
+  "exclude": []
+}
