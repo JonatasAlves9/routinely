@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
 import {useIntl} from 'react-intl'
-import {PageLink, PageTitle} from '../../../_metronic/layout/core'
+import {PageLink, PageTitle} from '../../../config/layout/core'
 import {
     ListsWidget2,
     ListsWidget3,
@@ -12,7 +12,7 @@ import {
     StatisticsWidget4,
     TablesWidget5,
     TablesWidget9,
-} from '../../../_metronic/partials/widgets'
+} from '../../../config/partials/widgets'
 
 const dashboardBreadCrumbs: Array<PageLink> = [
   {

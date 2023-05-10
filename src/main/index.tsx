@@ -5,19 +5,19 @@ import {Chart, registerables} from 'chart.js'
 import {QueryClient, QueryClientProvider} from 'react-query'
 import {ReactQueryDevtools} from 'react-query/devtools'
 // Apps
-import {MetronicI18nProvider} from '../presentation/_metronic/i18n/Metronici18n'
-import '../presentation/_metronic/assets/fonticon/fonticon.scss'
-import '../presentation/_metronic/assets/keenicons/duotone/style.scss'
-import '../presentation/_metronic/assets/keenicons/outline/style.scss'
-import '../presentation/_metronic/assets/keenicons/solid/style.scss'
+import {MetronicI18nProvider} from '../presentation/config/i18n/Metronici18n'
+import '../presentation/config/assets/fonticon/fonticon.scss'
+import '../presentation/config/assets/keenicons/duotone/style.scss'
+import '../presentation/config/assets/keenicons/outline/style.scss'
+import '../presentation/config/assets/keenicons/solid/style.scss'
 /**
  * TIP: Replace this style import with rtl styles to enable rtl mode
  *
  * import './_metronic/assets/css/style.rtl.css'
  **/
-import '../presentation/_metronic/assets/sass/style.scss'
-import '../presentation/_metronic/assets/sass/plugins.scss'
-import '../presentation/_metronic/assets/sass/style.react.scss'
+import '../presentation/config/assets/sass/style.scss'
+import '../presentation/config/assets/sass/plugins.scss'
+import '../presentation/config/assets/sass/style.react.scss'
 import {AppRoutes} from '../presentation/app/routing/AppRoutes'
 import {AuthProvider, setupAxios} from '../presentation/app/modules/auth'
 /**
