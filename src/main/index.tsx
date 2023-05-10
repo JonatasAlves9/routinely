@@ -18,8 +18,8 @@ import '../presentation/config/assets/keenicons/solid/style.scss'
 import '../presentation/config/assets/sass/style.scss'
 import '../presentation/config/assets/sass/plugins.scss'
 import '../presentation/config/assets/sass/style.react.scss'
-import {AppRoutes} from '../presentation/app/routing/AppRoutes'
-import {AuthProvider, setupAxios} from '../presentation/app/modules/auth'
+import {AppRoutes} from './routing/AppRoutes'
+import {AuthProvider, setupAxios} from '../presentation/app/modules/auth2'
 /**
  * Creates `axios-mock-adapter` instance for provided `axios` instance, add
  * basic Metronic mocks and returns it.
