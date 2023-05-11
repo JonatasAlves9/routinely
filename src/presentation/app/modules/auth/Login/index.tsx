@@ -57,8 +57,8 @@ export function Login() {
         >
             {/* begin::Heading */}
             <div className='text-center mb-11'>
-                <h1 className='text-dark fw-bolder mb-3'>Sign In</h1>
-                <div className='text-gray-500 fw-semibold fs-6'>Your Social Campaigns</div>
+                <h1 className='text-dark fw-bolder mb-3'>Login</h1>
+                <div className='text-gray-500 fw-semibold fs-6'>Suas redes sociais</div>
             </div>
             {/* begin::Heading */}
 
@@ -76,7 +76,7 @@ export function Login() {
                             src={toAbsoluteUrl('/media/svg/brand-logos/google-icon.svg')}
                             className='h-15px me-3'
                         />
-                        Sign in with Google
+                        Login com Google
                     </a>
                     {/* end::Google link */}
                 </div>
@@ -99,7 +99,7 @@ export function Login() {
                             src={toAbsoluteUrl('/media/svg/brand-logos/apple-black-dark.svg')}
                             className='theme-dark-show h-15px me-3'
                         />
-                        Sign in with Apple
+                        Login com Apple
                     </a>
                     {/* end::Google link */}
                 </div>
@@ -109,7 +109,7 @@ export function Login() {
 
             {/* begin::Separator */}
             <div className='separator separator-content my-14'>
-                <span className='w-125px text-gray-500 fw-semibold fs-7'>Or with email</span>
+                <span className='w-125px text-gray-500 fw-semibold fs-7'>Ou com seu email</span>
             </div>
             {/* end::Separator */}
 
@@ -146,7 +146,7 @@ export function Login() {
 
             {/* begin::Form group */}
             <div className='fv-row mb-3'>
-                <label className='form-label fw-bolder text-dark fs-6 mb-0'>Password</label>
+                <label className='form-label fw-bolder text-dark fs-6 mb-0'>Senha</label>
                 <input
                     type='password'
                     autoComplete='off'
@@ -177,7 +177,7 @@ export function Login() {
 
                 {/* begin::Link */}
                 <Link to='/auth/forgot-password' className='link-primary'>
-                    Forgot Password ?
+                    Esqueceu a senha?
                 </Link>
                 {/* end::Link */}
             </div>
@@ -191,10 +191,10 @@ export function Login() {
                     className='btn btn-primary'
                     disabled={formik.isSubmitting || !formik.isValid}
                 >
-                    {!loading && <span className='indicator-label'>Continue</span>}
+                    {!loading && <span className='indicator-label'>Entrar</span>}
                     {loading && (
                         <span className='indicator-progress' style={{display: 'block'}}>
-              Please wait...
+             Entrando ...
               <span className='spinner-border spinner-border-sm align-middle ms-2'></span>
             </span>
                     )}
@@ -203,9 +203,9 @@ export function Login() {
             {/* end::Action */}
 
             <div className='text-gray-500 text-center fw-semibold fs-6'>
-                Not a Member yet?{' '}
+                Não tem um cadastro?{' '}
                 <Link to='/auth/registration' className='link-primary'>
-                    Sign up
+                    Cadastre-se
                 </Link>
             </div>
         </form>
